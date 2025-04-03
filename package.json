@@ -1,1 +1,8 @@
+{
+  "name": "sdr-voice-bot",
+  "version": "1.0.0",
+  "dependencies": {
+    "twilio": "^4.15.0"
+  }
+}
 
