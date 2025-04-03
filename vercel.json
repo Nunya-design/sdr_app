@@ -1,1 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/voice_handler", "dest": "api/voice_handler.js" },
+    { "src": "/api/voice_handler/", "dest": "api/voice_handler.js" }
+  ]
+}
 
